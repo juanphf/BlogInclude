@@ -1,0 +1,10 @@
+[
+  {
+      "title": "ClimaPrecision",
+      "date": "03 de outubro de 2023",
+      "image": "/img/ClimaPrecision.jpeg",
+      "description": "ClimaPrecision é um site que mostra as aproximações gráficas utilizando os métodos numéricos de MMQ e a Série de Fourier através da análises de dados pluviométricos de Natal/RN de 2012 a 2022. Foi desenvolvido utilizando HTML, CSS e o framework Bootstrap",
+      "link": "#"
+  }
+
+]

@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(29, 28, 28);
+    /* background-image: url('/img/oppenheimer-hd.jpeg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background-color: #161515;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-image: url('/img/oppenheimer-hd.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu , .logo {
+    padding: 10px;
+}
+
+.menu a, .menu a:visited {
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    padding: 8px 20px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    color: rgb(37, 31, 19);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    
+    width: 970px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.posts {
+    width: 660px;
+    float: left;
+
+}
+
+.post {
+    padding: 20px;
+    background-color: rgb(221, 221, 221);
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.post p {
+    font-size: large;
+    margin: 10px 0;
+}
+
+.post a{
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+
+.data-post {
+    font-size: 0.8em;
+    display: block;
+}
+
+.post img {
+    margin-top: 8px;
+    border: 2px solid black;
+    margin-bottom: 8px;
+    width: auto;
+    max-width: 600px;
+}
+
+.barra-lateral {
+    width: 280px;
+    float: right;
+    background-color: rgb(221, 221, 221);
+}
+
+.text-header-form {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    margin-left: 33px;
+    margin-top: 5px;
+}
+
+.form-input-title {
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 8px;
+    width: 250px;
+}
+
+.form-corpo {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 100px;
+    margin-left: 8px;
+    width: 256px;
+}
+
+.form-input-img {
+    padding: 5px;
+    margin-left: 8px;
+    margin-top: 2px;
+    width: 250px;
+}
+
+.form-input-link{
+    padding: 5px;
+    margin-left: 8px;
+    margin-top: 5px;
+    width: 250px;
+}
+
+.form-button {
+    margin-top: 8px;
+    margin-left: 87px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    padding: 3px;
+    letter-spacing: 0.0001em;
+    
+
+}
+
+.form-button:hover {
+    letter-spacing: 0.05em;
+    border-style: none;
+}
+
+.toggle-button {
+    transition: 0.5s;
+    padding: 4px;
+    letter-spacing: 0.001em;
+    border-color: white;
+}
+
+.toggle-button:hover {
+    background-color: #919191;
+    letter-spacing: 0.05em;
+    box-shadow: 0 0 20px #4d4d4d;
+}
+
+footer {
+    width: 100%;
+    position: static;
+    height: 70px;
+    background-color: #5f5f5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer img {
+    width: 40px;
+    padding-left: 30px;
+
+}
+
+.imagens-footer{
+    margin-left: 1650px;
+    align-items: center;
+
+}
+
+.texto-footer {
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    margin-left: 780px;
+}

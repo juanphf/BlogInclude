@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+header {
+    background-color: #131212;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    height: 52px;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header .texto1-header{
+    width: 170px;
+    left: 50px;
+    top: 28px;
+    position: absolute;
+    color: #f39256;
+    font-family:serif ;
+}
+
+.texto-header {
+    display: flex;
+
+}
+
+.texto-header a {
+    text-decoration: none;
+    color: #f39256;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.texto-header a:hover {
+    text-decoration: underline;
+}
+
+.texto-header h2 {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    background-color: #414141;
+    padding: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-image: url('/img/oppenheimer-hd.jpeg');
+    background-size: cover; /* Redimensiona a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem na tela */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    color: white;
+    width: auto;
+    height: 100px;
+
+    
+}
+
+
+
+foto {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color: #f39256;
+}
+
+.foto img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #f39256;
+    
+}
+
+texto {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.texto {
+    margin-top: 50px;
+    margin-left: 450px;
+    max-width: 1000px;
+    text-align: justify;
+}
+
+.texto h1 {
+    color: #f39256;
+}
+
+
+
+
+
+footer {
+    background-color: #5f5f5f;
+    color: white;
+    text-align: center;
+    padding: 28px 0;
+    height: 50px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between; /* Coloca imagens no canto direito */
+    align-items: center; /* Centraliza verticalmente */
+
+}
+
+.rodape .imagens-footer img {
+    width: 50px; /* Ajuste o tamanho das imagens conforme necessário */
+    margin-left: 20px; /* Espaço para esquerda */
+    margin-right: 50px; /* Espaço para direita */
+}
+
+.texto-rodape {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 750px; 
+
+}

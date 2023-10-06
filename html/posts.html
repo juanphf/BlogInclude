@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posts</title>
+    <link rel="stylesheet" href="/css/posts.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1>Postagens</h1>
+        </div>
+        <div class="menu">
+            <a href="/html/index.html">Pagina Inicial</a>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="posts">
+
+            <div class="post">
+                
+                <h2>Arrasto de tela dinâmico</h2>
+                <div class="apagar">
+                    <span class="data-post">02/10/2023</span>
+                    <img src="/img/Arrasto.jpeg" width="620px">
+                    <p>&nbsp;&nbsp;Um site onde aplica um zoom ao item ao passar o mouse por cima com um link inserido para compra do produto.
+                    Desenvolvido utilizando HTML, CSS e JS para tornalo dinâmico.
+                    </p>
+                    <a href="https://github.com/juanphf/Arrasto-de-tela-dividida">Ver projeto</a>
+                </div>   
+                <button class="toggle-button">Ocultar</button>
+            </div>
+            
+            <div class="post">
+            
+                <h2>ClimaPrecision</h2>
+                <div class="apagar">
+                    
+                    <span class="data-post">03/10/2023</span>
+                    <img src="/img/ClimaPrecision.jpeg" width="620px">
+                    <p>&nbsp;&nbsp;ClimaPrecision é um site que mostra as aproximações gráficas utilizando os métodos numéricos de MMQ e a Série de Fourier através da análises de dados pluviométricos de Natal/RN de 2012 a 2022. Foi desenvolvido utilizando HTML, CSS e o framework Bootstrap</p>
+                    <a href="https://github.com/juanphf/ClimaPrecision">Ver projeto</a>
+                </div>    
+                <button class="toggle-button">Ocultar</button>
+            </div>
+
+
+            <div class="post">
+                
+                <h2>Frogger</h2>
+                <div class="apagar">
+                    <span class="data-post">04/10/2023</span>
+                    <img src="/img/frogger.jpeg" width="620px">
+                    <p>&nbsp;&nbsp;O Frogger foi meu primeiro projeto de programação, é um jogo bem simples,
+                        um sapo precisa atravessar a rua sem bater nos caminhões e capturar os pontos brancos no mapa.
+                        Ele foi desenvolvido na matéria de Lógica de Programação usando a ferramenta P5js que é baseada em programação em Javascript.
+                    </p>
+                    <a href="https://github.com/juanphf/Frogger">Ver projeto</a>
+                </div>
+                <button class="toggle-button">Ocultar</button>
+            </div>
+
+            <div id="post-container">
+                <div class="apagar">
+                <!-- O modelo de postagem será clonado aqui -->
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="barra-lateral">
+            <h1 class="text-header-form">Adicionar Post</h1>
+            <hr class="blog-title-separator" color="black"/>
+            <div class="add-post-container">
+                <form id="add-post-form">
+                    <input class="form-input-title" type="text" name="title" placeholder="Título" />
+                    <textarea class="form-corpo" name="body" placeholder="Corpo"></textarea>
+                    <input class="form-input-img" type="text" name="image" placeholder="Link da imagem" />
+                    <input class="form-input-link" type="text" name="link" placeholder="Link do projeto" />
+                    <div class="text-center">
+                        <button type="submit" class="form-button" style="--clr:#FF4500">
+                            Criar novo post
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+
+    </div>
+    <footer class="footer-post">
+        <div class="footer">
+            <div class="texto-footer"><p>&copy; 2023 Juan Pablo. Todos os direitos reservados.</p></div>
+            <div class="imagens-footer">
+                <a href="mailto:jphferreira@outlook.com"><img src="/img/email.png" alt="Imagem 1"></a>
+                <a href="https://github.com/juanphf"><img src="/img/github.png" alt="Imagem 2"></a>
+                <a href="https://www.linkedin.com/in/juan-pablo-hortencio-ferreira-aba87524a/"><img src="/img/linkedin.png" alt="Imagem 3"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
